@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Place an Order</title>
+</head>
+<body>
+    <main>
+        <h1>Place an Order</h1>
+        <form id="fOrderForm">
+            
+            <label for="Fruits">Select Fruits:</label>
+            <select id="Fruits" name="Fruits">
+                <option value="Apple" data-price="100">Apple - Rs 100</option>
+                <option value="Orange" data-price="200">Orange - Rs 200</option>
+                <option value="Mango" data-price="300">Mango - Rs 300</option>
+            </select>
+            <label for="Fquantity">Quantity:</label>
+            <input type="number" id="Fquantity" name="Fquantity" min="1" required>
+
+            <button type="submit">Submit Order</button>
+        </form>   
+            <br>
+            <br>
+        <form id="vOrderForm">
+
+            <label for="Vegetables">Select Vegetables:</label>
+            <select id="Vegetables" name="Vegetables">
+                <option value="Cucumber" data-price="40">Cucumber - Rs 40</option>
+                <option value="Onion" data-price="60">Onion - Rs 60</option>
+                <option value="Tomato" data-price="250">Tomato - Rs 250</option>
+            </select>
+            <label for="Vquantity">Quantity:</label>
+            <input type="number" id="Vquantity" name="Vquantity" min="1" required>
+
+            <button type="submit">Submit Order</button>
+        </form>
+            <br>
+            <br>
+        <form id="gOrderForm">
+            <label for="Grains">Select Grains:</label>
+            <select id="Grains" name="Grains">
+                <option value="Rice" data-price="80">Rice - Rs 80</option>
+                <option value="Greengram" data-price="120">Greengram - Rs 120</option>
+                <option value="wheat" data-price="150">Tomato - Rs 150</option>
+            </select>
+            <label for="Gquantity">Quantity:</label>
+            <input type="number" id="Gquantity" name="Gquantity" min="1" required>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Farm-to-Table Platform</p>
+    </footer>
+    <script src="order.js"></script>
+</body>
+</html>

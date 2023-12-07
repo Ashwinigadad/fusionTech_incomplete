@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin-left: 150px;
+}
+.header{
+    background-image:url(homepic.jpg);
+    height:800px;
+    width:1500px;
+    background-position-x: center;
+    background-size: cover;
+    background-attachment: scroll;
+    backface-visibility:0;
+    text-align:center;
+    background-repeat: no-repeat;
+
+}
+h1{
+    margin: 45px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+a{
+    text-align:center;
+    text-decoration: none;
+    font-size:xx-large;
+}
+/* button{
+    text-align:center;
+    color:black;
+    width:100px;
+    height:50px; */
+
+
+    /* margin-top: 0px;
+    margin-bottom:5000px; */
+    /* text-align: end; */
+    /* shape-margin: 600px; */
+    /* background-color:cornflowerblue;
+} */
+/* .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: honeydew;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    /* margin-top: 100px;
+    margin-bottom: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+} */ 
+
+.hero-btn:hover{
+    border:1px solid aquamarine;
+    transition:1s;
+    align-items:center;
+}
+.choose{
+    text-align: center;
+    color:black;
+}
